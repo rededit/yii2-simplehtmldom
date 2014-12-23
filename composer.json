@@ -20,7 +20,7 @@
     },
     "extra": {
         "branch-alias": {
-            "dev-master": "yii2.rev210.v01.3-dev"
+            "dev-master": "2.210.04-dev"
         }
     }
 }
