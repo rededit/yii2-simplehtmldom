@@ -1,6 +1,6 @@
 {
     "name": "keltstr/yii2-simplehtmldom",
-    "description": "Simple HTML Dom rev.210 adapted to Yii2 psr-0(namespace autoload class)? based on serhatozles/yii2-simplehtmldom(rev.196)",
+    "description": "\"PHP Simple HTML DOM Parser\" rev.210 adapted to Yii2 psr-4(namespace autoload class) based on serhatozles/yii2-simplehtmldom(rev.196)",
     "type": "yii2-extension",
     "keywords": ["yii2","extension","simplehtmldom","simple_html_dom"],
     "license": "WTFPL",
@@ -20,7 +20,7 @@
     },
     "extra": {
         "branch-alias": {
-            "dev-master": "2.210.04-dev"
+            "dev-master": "2.210.x-dev"
         }
     }
 }
