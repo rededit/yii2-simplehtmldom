@@ -1,26 +1,23 @@
-Simple HTML Dom
+"Simple HTML Dom" Yii2 extension (keltstr/yii2-simplehtmldom)
 ===============
-Simple HTML Dom
+"Simple HTML Dom" http://simplehtmldom.sourceforge.net/ library rev.210 adapted to yii2 extension class autoload(psr-4 from \vendor\keltstr\simplehtmldom) 
 
 Installation
 ------------
 
 The preferred way to install this extension is through [composer](http://getcomposer.org/download/).
-
 Either run
-
 ```
-php composer.phar require --prefer-dist serhatozles/yii2-simplehtmldom "dev-master"
+php composer.phar require --prefer-dist keltstr/yii2-simplehtmldom "dev-master"
 ```
-
-or add
-
+or (if composer installed to OS)
 ```
-"serhatozles/yii2-simplehtmldom": "dev-master"
+composer require --prefer-dist keltstr/yii2-simplehtmldom "dev-master"
 ```
-
-to the require section of your `composer.json` file.
-
+OR add(code below) to the require section of your `composer.json` file and run command Install(Composer)
+```
+"keltstr/yii2-simplehtmldom": "dev-master"
+```
 
 Usage
 -----
@@ -28,6 +25,13 @@ Usage
 Once the extension is installed, simply use it in your code by  :
 
 ```php
-<?= \serhatozles\simplehtmldom\SimpleHTMLDom::file_get_html('http://google.com'); ?>```
-
-See more: http://simplehtmldom.sourceforge.net/
+<?= \keltstr\simplehtmldom\SimpleHTMLDom::file_get_html('http://google.com'); ?>```
+```
+OR use alias namespace by `use`
+```php
+<?php
+use keltstr\simplehtmldom\SimpleHTMLDom as SHD
+$html_source = SHD::file_get_html('http://google.com'); 
+?>
+```
+About the functional read on the official website: http://simplehtmldom.sourceforge.net/
