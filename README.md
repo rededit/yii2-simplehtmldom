@@ -1,6 +1,6 @@
-"Simple HTML Dom" Yii2 extension (keltstr/yii2-simplehtmldom)
+"PHP Simple HTML DOM Parser" Yii2 extension (keltstr/yii2-simplehtmldom)
 ===============
-"Simple HTML Dom" http://simplehtmldom.sourceforge.net/ library rev.210 adapted to yii2 extension class autoload(psr-4 from \vendor\keltstr\simplehtmldom) 
+"Simple HTML Dom"(PHP Simple HTML DOM Parser) http://simplehtmldom.sourceforge.net/ library rev.210 adapted to yii2 extension class autoload(psr-4 from \vendor\keltstr\simplehtmldom) 
 
 Installation
 ------------
