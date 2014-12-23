@@ -1,13 +1,13 @@
 {
-    "name": "serhatozles/yii2-simplehtmldom",
-    "description": "Simple HTML Dom",
+    "name": "keltstr/yii2-simplehtmldom",
+    "description": "Simple HTML Dom rev.210 adapted to Yii2 psr-0(namespace autoload class)? based on serhatozles/yii2-simplehtmldom(rev.196)",
     "type": "yii2-extension",
-    "keywords": ["yii2","extension","simplehtmldom"],
-    "license": "GPL-3.0+",
+    "keywords": ["yii2","extension","simplehtmldom","simple_html_dom"],
+    "license": "WTFPL",
     "authors": [
         {
-            "name": "serhatozles",
-            "email": "serhatozles@gmail.com"
+            "name": "keltstr",
+            "email": "keltstr@gmail.com"
         }
     ],
     "require": {
@@ -15,7 +15,11 @@
     },
     "autoload": {
         "psr-4": {
-            "serhatozles\\simplehtmldom\\": ""
+            "keltstr\\simplehtmldom\\": ""
         }
-    }
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "2.0.x-dev"
+        },
 }
