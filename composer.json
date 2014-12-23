@@ -22,4 +22,5 @@
         "branch-alias": {
             "dev-master": "yii2.rev210.v01"
         },
+    }
 }
