@@ -8,7 +8,7 @@ Installation
 The preferred way to install this extension is through [composer](http://getcomposer.org/download/).
 Either run
 ```
-php composer.phar require --prefer-dist keltstr/yii2-simplehtmldom "dev-master"
+php composer.phar require --prefer-dist rededit/yii2-simplehtmldom "dev-master"
 ```
 or (if composer installed to OS)
 ```
@@ -16,7 +16,7 @@ composer require --prefer-dist keltstr/yii2-simplehtmldom "dev-master"
 ```
 OR add(code below) to the require section of your `composer.json` file and run command Install(Composer)
 ```
-"keltstr/yii2-simplehtmldom": "dev-master"
+"rededit/yii2-simplehtmldom": "dev-master"
 ```
 
 Usage
@@ -25,12 +25,12 @@ Usage
 Once the extension is installed, simply use it in your code by  :
 
 ```php
-<?= \keltstr\simplehtmldom\SimpleHTMLDom::file_get_html('http://google.com'); ?>```
+<?= \rededit\simplehtmldom\SimpleHTMLDom::file_get_html('http://google.com'); ?>```
 ```
 OR use alias namespace by `use`
 ```php
 <?php
-use keltstr\simplehtmldom\SimpleHTMLDom as SHD
+use rededit\simplehtmldom\SimpleHTMLDom as SHD
 $html_source = SHD::file_get_html('http://google.com'); 
 ?>
 ```
