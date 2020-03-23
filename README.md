@@ -12,7 +12,7 @@ php composer.phar require --prefer-dist rededit/yii2-simplehtmldom "dev-master"
 ```
 or (if composer installed to OS)
 ```
-composer require --prefer-dist keltstr/yii2-simplehtmldom "dev-master"
+composer require --prefer-dist rededit/yii2-simplehtmldom "dev-master"
 ```
 OR add(code below) to the require section of your `composer.json` file and run command Install(Composer)
 ```
